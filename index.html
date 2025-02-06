@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Post Timestamp Extractor</title>
+    <script defer src="script.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin: 50px; }
+        input, button { padding: 10px; margin: 5px; }
+        #result { margin-top: 20px; font-size: 18px; }
+        #preview { display: none; margin-top: 20px; max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h1>LinkedIn Post Timestamp Extractor</h1>
+    <input type="text" id="linkedinUrl" placeholder="Enter LinkedIn Post URL">
+    <button onclick="extractTimestamp()">Extract Timestamp</button>
+    <p id="result"></p>
+    <img id="preview" alt="LinkedIn Post Image">
+</body>
+</html>
